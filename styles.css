@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200..800;1,200..800&family=Fraunces:ital,wght@0,200..800;1,200..800');
 *{
     padding: 0%;
-    margin: 0%;
+    /* margin: 0%; */
     font-family:"Montserrat", "Fraunces" ;
 }
 
@@ -125,7 +125,7 @@ body{
 
 .sub{
     width:343px;
-    height:611px;
+    height:625px;
     display: block;
     gap: 1rem;
     /* justify-content: center; */
@@ -192,7 +192,7 @@ body{
 }
 
 .text{
-  margin-left: 10px;
+  margin-left: 25px;
   /* background: #3D8168; */
 }
 }
