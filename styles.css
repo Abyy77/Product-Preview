@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200..800;1,200..800&family=Fraunces:ital,wght@0,200..800;1,200..800');
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:"Montserrat", "Fraunces" ;
+}
+
+body{
+     overflow-y: hidden;
+     overflow-x: hidden;
+       background-color: #F2EAE2;
+}
+
+
+/* for laptop */
+ .phone{
+  display: none;
+}
+.laptop{
+    display: block;
+  }
+  
+
+
+.container{
+    width:100%;
+    height: 100vh;
+    /* margin:auto ; */
+    display: flex;
+    align-items: center;
+    /* background-color: #F2EAE2; */
+    justify-content: center;
+}
+
+.sub{
+    width: 600px;
+    height: 450px;
+    display: flex;
+    align-items: center;     
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.img {
+  max-width: 50%;  
+  height: auto;
+  margin-right: 30px;
+}
+
+ .p{
+   width: 92px;
+   height:15px; 
+   font-size: 12px;
+   font-weight: 500px;
+ }
+
+ .gabriel{
+   width: 236px;
+   height:96px; 
+   font-size: 32px;
+   font-weight: 700px;
+   font-family: "Fraunces";
+   margin-top: 30px;
+ }
+
+  .floral{
+   width: 236px;
+   height:92px; 
+   font-size: 14px;
+   font-weight: 500px;
+   font-family: "montserrat";
+   margin-top: 40px;
+ }
+
+.btn {
+  height: 48px;
+  width: 236px;
+  color: white;
+  background-color: #3D8168;
+  border-radius: 8px;
+  border: none;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.btn:hover{
+   background-color:rgb(28, 56, 47) ;
+   cursor: pointer;
+}
+
+.money{
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text{
+  margin: auto;
+}
+
+
+
+
+
+/* for phone */
+@media (max-width: 600px) {
+
+ .phone{
+  display: block;
+  /* padding-top: 60px; */
+}
+.laptop{
+    display: none;
+  }
+
+.container{
+    width:100%;
+    height: 100vh;
+    display:flex;
+    gap:1rem;
+    justify-content: center;
+}
+
+.sub{
+    width:343px;
+    height:611px;
+    display: block;
+    gap: 1rem;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align-items: center;      */
+    /* justify-content: space-between; */
+    /* align-content: center; */
+    background-color: white;
+    border-radius: 10px;
+}
+
+.img {
+  width: 343;  
+  height: 240;
+  /* margin-right: 30px; */
+}
+
+ .p{
+   width: 92px;
+   height:15px; 
+   font-size: 12px;
+   font-weight: 500px;
+ }
+
+ .gabriel{
+   width: 295px;
+   height:64px; 
+   font-size: 32px;
+   font-weight: 700px;
+   font-family: "Fraunces";
+   margin-top: 30px;
+ }
+
+  .floral{
+   width: 295px;
+   height:92px; 
+   font-size: 14px;
+   font-weight: 500px;
+   font-family: "montserrat";
+   margin-top: 40px;
+ }
+
+.btn {
+  height: 48px;
+  width: 295px;
+  color: white;
+  background-color: #3D8168;
+  border-radius: 8px;
+  border: none;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.btn:hover{
+   background-color:rgb(28, 56, 47) ;
+   cursor: pointer;
+}
+
+.money{
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text{
+  margin: auto;
+  /* background: #3D8168; */
+}
+}
